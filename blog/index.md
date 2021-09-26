@@ -1,6 +1,9 @@
 ---
 layout: articles
 title: Shane's blog
-# articles:
-#   excerpt_type: html
+articles:
+  data_source: site.posts
+  type: item
+  excerpt_type: html
+  article_type: BlogPosting
 ---
