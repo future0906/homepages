@@ -1,5 +1,5 @@
-## Blog entry
-
-{% for post in site.posts %}
-*  [{{ post.title }}]({{ post.url }})
-{% endfor %}
+---
+layout: home
+# articles:
+#   excerpt_type: html
+---
