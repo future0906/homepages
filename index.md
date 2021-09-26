@@ -1,6 +1,8 @@
 ---
 layout: home
 title: Shane Yao
-# articles:
-#   excerpt_type: html
+articles:
+  data_source: site.posts
+  type: brief
+  show_info: true
 ---
