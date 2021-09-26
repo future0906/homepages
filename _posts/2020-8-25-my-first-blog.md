@@ -1,5 +1,6 @@
 ---
 title: My first blog
+layout: article
 ---
 ## My first blog pages
 This is my first blog pages base on github pages and using my custom domain.I had been told about how github pages can be used for blogging long times ago(maybe 4 or 5 years?), but I nerver try this seriously.
