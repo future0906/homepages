@@ -4,8 +4,8 @@ feature: true
 comments:
   provider: disqus
   disqus:
-    shortname: "shaneyao"
+    shortname: shaneyao
 analytics:
   provider: google
   google:
-    tracking_id: "G-9BYF76TH10"
+    tracking_id: G-9BYF76TH10
