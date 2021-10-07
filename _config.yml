@@ -1,3 +1,11 @@
 title: Shane Yao
 remote_theme: kitian616/jekyll-text-theme
 feature: true
+comments:
+  provider: disqus
+  disqus:
+    shortname: "shaneyao"
+analytics:
+  provider: google
+  google:
+    tracking_id: "G-9BYF76TH10"
