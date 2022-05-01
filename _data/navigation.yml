@@ -6,20 +6,20 @@ header:
       fr      : &FR
       # @end locale config
     url: /
-  - titles:
-      # @start locale config
-      en      : &EN       Chinese
-      zh-Hans : &ZH_HANS  中文
-      fr      : &FR       Chinese
-      # @end locale config
-    url: /blog_cn.html
-  - titles:
-      # @start locale config
-      en      : &EN       English
-      zh-Hans : &ZH_HANS  英文
-      fr      : &FR       English
-      # @end locale config
-    url: /blog_en.html
+  # - titles:
+  #     # @start locale config
+  #     en      : &EN       Chinese
+  #     zh-Hans : &ZH_HANS  中文
+  #     fr      : &FR       Chinese
+  #     # @end locale config
+  #   url: /blog_cn.html
+  # - titles:
+  #     # @start locale config
+  #     en      : &EN       English
+  #     zh-Hans : &ZH_HANS  英文
+  #     fr      : &FR       English
+  #     # @end locale config
+  #   url: /blog_en.html
   - titles:
       # @start locale config
       en      : &EN       About
