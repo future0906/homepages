@@ -1,6 +1,6 @@
 ---
 layout: articles
-title: Shane Yao
+title: 博客
 articles:
   data_source: site.posts | where:"lang", page.lang
   type: brief

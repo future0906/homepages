@@ -1,6 +1,6 @@
 ---
 layout: articles
-title: Shane Yao
+title: Blog
 lang: en
 articles:
   data_source: site.posts | where:"lang", page.lang
