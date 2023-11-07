@@ -1,10 +1,13 @@
-title: Shane Yao
+title: Shane Yao - 个人开发技术分享
+description: 个人开发技术分享
+url: 'https://yaozhixiang.com'
 remote_theme: kitian616/jekyll-text-theme
+theme: jekyll-text-theme
 feature: true
-comments:
-  provider: disqus
-  disqus:
-    shortname: shaneyao
+# comments:
+#   provider: disqus
+#   disqus:
+#     shortname: shaneyao
 analytics:
   provider: google
   google:
