@@ -1,6 +1,6 @@
 ---
 title: 从Wordpress切换到Jekyll
-date: '2023-10-06T01:18:40+08:00'
+date: '2023-11-10T01:39:40+08:00'
 author: shane
 layout: article
 categories:
@@ -15,7 +15,6 @@ categories:
 
 唯一遗憾的是目前国内没有评论服务（多说之类的都跪了）。这样也好，可以安静写自己的东西。
 
-Reference
-------
+
 [^1]: [Jekyll site to AWS S3 using GitHub Actions](https://pagertree.com/blog/jekyll-site-to-aws-s3-using-github-actions)
 [^2]: [拥抱腾讯云服务：Github Actions+COS，快速搭建你的Wiki文档](https://cloud.tencent.com/developer/article/1545303)
