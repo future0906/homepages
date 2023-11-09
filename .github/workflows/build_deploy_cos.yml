@@ -44,7 +44,8 @@ jobs:
           SECRET_KEY: ${{ secrets.TENCENT_CLOUD_SECRET_KEY }}
           COS_BUCKET: ${{ secrets.COS_BUCKET }}
           COS_REGION: ${{ secrets.COS_REGION }}
-        - run: sudo pip install coscmd
-        - run: coscmd config -a $SECRET_ID -s $SECRET_KEY -b $COS_BUCKET -r $COS_REGION
+        run: |
+          sudo pip install coscmd
+          coscmd config -a $SECRET_ID -s $SECRET_KEY -b $COS_BUCKET -r $COS_REGION
       - name: Upload to COS
         run: coscmd upload -r ./_site/ /
