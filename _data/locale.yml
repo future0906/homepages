@@ -50,7 +50,7 @@ zh-Hans: &ZH_HANS
   FOLLOW_US               : "在 [NAME] 上关注我们。"
   EMAIL_ME                : "给我发邮件。"
   EMAIL_US                : "给我们发邮件。"
-  COPYRIGHT_DATES         : "2022-2023  <a href='https://beian.miit.gov.cn/'>粤ICP备19155353号-1</a>"
+  COPYRIGHT_DATES         : "2021-2023  <a href='https://beian.miit.gov.cn/'>粤ICP备19155353号-1</a>"
 
 zh:
   <<: *ZH_HANS
