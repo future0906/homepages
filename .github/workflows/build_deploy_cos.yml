@@ -38,13 +38,13 @@ jobs:
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
-      - name: Upload COS 
-        uses: TencentCloud/cos-action@v1
-        with: 
-          secret_id: ${{ secrets.TENCENT_CLOUD_SECRET_ID }}
-          secret_key: ${{ secrets.TENCENT_CLOUD_SECRET_KEY }}
-          cos_bucket: ${{ secrets.COS_BUCKET }}
-          cos_region: ${{ secrets.COS_REGION }}
-          local_path: ./_site/*
-          remote_path: /
-          clean: true
+      - name: Setup COS 
+        env: 
+          SECRET_ID: ${{ secrets.TENCENT_CLOUD_SECRET_ID }}
+          SECRET_KEY: ${{ secrets.TENCENT_CLOUD_SECRET_KEY }}
+          COS_BUCKET: ${{ secrets.COS_BUCKET }}
+          COS_REGION: ${{ secrets.COS_REGION }}
+        - run: sudo pip install coscmd
+        - run: coscmd config -a $SECRET_ID -s $SECRET_KEY -b $COS_BUCKET -r $COS_REGION
+      - name: Upload to COS
+        run: coscmd upload -r ./_site/ /
