@@ -42,7 +42,7 @@ zh-Hans: &ZH_HANS
   PREVIOUS                : "上篇"
   NEXT                    : "下篇"
   ARTICLE_DATE_FORMAT     : "%Y年 %m月%d日"
-  ARTICLE_LIST_DATE_FORMAT: "%m月%d日"
+  ARTICLE_LIST_DATE_FORMAT: "%Y-%m-%d"
   STATISTICS              : "共计 [POST_COUNT] 篇文章，[PAGE_COUNT] 页。"
   LICENSE_ANNOUNCE        : "本文遵守 [LICENSE] 许可协议。"
   POST_ON_GITHUB          : "在 Github 上修改"
