@@ -8,18 +8,18 @@ header:
     url: /
   - titles:
       # @start locale config
-      en      : &EN       Chinese
-      zh-Hans : &ZH_HANS  中文
-      fr      : &FR       Chinese
-      # @end locale config
-    url: https://yaozhixiang.com
-  - titles:
-      # @start locale config
       en      : &EN       Blog
       zh-Hans : &ZH_HANS  博客
       fr      : &FR       Blog
       # @end locale config
     url: https://blog.shaneyao.com/
+  - titles:
+      # @start locale config
+      en      : &EN       Chinese Site
+      zh-Hans : &ZH_HANS  中文
+      fr      : &FR       Chinese Site
+      # @end locale config
+    url: https://yaozhixiang.com
   - titles:
       # @start locale config
       en      : &EN       About
