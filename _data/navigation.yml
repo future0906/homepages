@@ -15,9 +15,9 @@ header:
     url: https://blog.shaneyao.com/
   - titles:
       # @start locale config
-      en      : &EN       Chinese Site
+      en      : &EN       中文
       zh-Hans : &ZH_HANS  中文
-      fr      : &FR       Chinese Site
+      fr      : &FR       中文
       # @end locale config
     url: https://yaozhixiang.com
   - titles:
