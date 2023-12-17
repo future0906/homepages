@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Shane Yao
+title: Index
 articles:
   data_source: site.posts
   type: brief
