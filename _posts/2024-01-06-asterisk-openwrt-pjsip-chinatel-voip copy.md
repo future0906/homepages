@@ -91,6 +91,52 @@ pjsip show history entry 1 # 查看1号协议的内容
 ```
 
 
+Update(20240110):
+--------
+VOIP接口DHCP返回的IP地址，居然会变。而且还是整个网段的变，网关地址也变了，导致静态路由不正确。解决方案有两个：
+1. 用SMZDM的方案，用multiwan+策略路由。这方案最方便，但是引入了mwan3，对我来说有点重度了。
+2. 增加DHCP脚本，每次分配的时候重新设一下网关。参考下面脚本，放到`/etc/udhcpc.user.d`
+
+```shell
+#!/bin/sh
+
+. /lib/functions.sh
+
+logger -t ${0##*/} ${@} $(env)
+DHCPC_EVENT="${1}"
+DHCPC_IF="${J_V_interface}"
+DHCPC_GW="${router}"
+echo $DHCPC_IF $DHCPC_EVENT
+case ${DHCPC_EVENT} in
+(bound|renew) ;;
+(*) exit 0 ;;
+esac
+
+case ${DHCPC_IF} in
+(VOIP) ;;
+(*) exit 0 ;;
+esac
+
+handle_route() {
+        local config=$1
+        local custom=$2
+        config_get route_interface $config interface
+        config_get route_target $config target
+        if [ $route_interface != "VOIP" ] ; then
+                return
+        fi
+        uci set network.$config.gateway="$DHCPC_GW"
+        ip route add $route_target via $DHCPC_GW dev ${interface}
+}
+
+logger -t ${0##*/} "Change Route"
+ip route delete default dev "${interface}"
+config_load network
+config_foreach handle_route route
+uci commit network
+logger -t ${0##*/} "Change Route complete"
+```
+
 [^1]: [openwrt上运行asterisk搭建电话语音网关,对接电信ims-sip配置上遇到的一些坑](https://post.smzdm.com/p/ao9250nm/)
 [^2]: [PJSIP with Proxies](https://docs.asterisk.org/Configuration/Channel-Drivers/SIP/Configuring-res_pjsip/PJSIP-with-Proxies/#asterisk-configuration)
 [^3]: [Asterisk in Openwrt](https://openwrt.org/docs/guide-user/services/voip/asterisk)
