@@ -6,13 +6,13 @@ header:
       fr      : &FR
       # @end locale config
     url: /
-  # - titles:
-  #     # @start locale config
-  #     en      : &EN       Chinese
-  #     zh-Hans : &ZH_HANS  中文
-  #     fr      : &FR       Chinese
-  #     # @end locale config
-  #   url: /blog_cn.html
+  - titles:
+      # @start locale config
+      en      : &EN       Blog
+      zh-Hans : &ZH_HANS  博客
+      fr      : &FR       
+      # @end locale config
+    url: https://blog.yaozhixiang.com
   # - titles:
   #     # @start locale config
   #     en      : &EN       English

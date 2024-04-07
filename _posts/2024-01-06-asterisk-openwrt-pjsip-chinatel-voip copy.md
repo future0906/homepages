@@ -2,7 +2,7 @@
 title: openwrt下用asterisk+pjsip稳定的拨出和接入电信固话（续）
 layout: article
 ---
-在2021年的时候，曾经试过用chan_sip和asterisk拨号电信固话具体可以参考[这篇]({% link _posts/2021-08-09-e588a9e794a8e8bf90e890a5e59586e59bbae7bd91e5928casteriske59ca8e5aeb6e690ade5bbbae591bce58fabe4b8ade5bf83e79a84e4b880e4ba9be680bbe7bb93.md %})。
+在2021年的时候，曾经试过用chan_sip和asterisk拨号电信固话具体可以参考[这篇](https://blog.yaozhixiang.com/?p=78)。
 当时基本跑通，只是挂一段时间后，电话会无法拨入。当时认为是电信VOIP局端需要一些特殊的协议没有继续折腾下去。刚好上周开始有点时间，又想慢慢折腾，顺便把方案升级了一下。chan_sip在asterisk21就会被抛弃，因此转去pjsip是大势所趋。但是全网的固话教程都是按照chan_sip配的。
 作为对SIP完全没了解又不想浪费时间一点点啃文档，有什么办法呢？还好官方有一个chan_sip配置转pjsip的脚本，在[这里](https://github.com/asterisk/asterisk/tree/master/contrib/scripts/sip_to_pjsip)。可以用网上配置转成pjsip，有一个大概的配置，然后再按需修改。
 张大妈有一篇文章[^1]，也是广州电信的，同样是广州电信的同学可以抄一下作业。总结起来有一下几点：
