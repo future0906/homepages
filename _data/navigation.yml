@@ -13,13 +13,13 @@ header:
       fr      : &FR       
       # @end locale config
     url: https://blog.yaozhixiang.com
-  # - titles:
-  #     # @start locale config
-  #     en      : &EN       English
-  #     zh-Hans : &ZH_HANS  英文
-  #     fr      : &FR       English
-  #     # @end locale config
-  #   url: /blog_en.html
+  - titles:
+      # @start locale config
+      en      : &EN       Garden
+      zh-Hans : &ZH_HANS  数字花园
+      fr      : &FR       
+      # @end locale config
+    url: https://brain.shaneyao.com
   - titles:
       # @start locale config
       en      : &EN       About
