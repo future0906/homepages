@@ -3,27 +3,29 @@ header:
       # @start locale config
       en      : &EN       Home
       zh-Hans : &ZH_HANS  首页
-      fr      : &FR
       # @end locale config
     url: /
   - titles:
       # @start locale config
       en      : &EN       Blog
       zh-Hans : &ZH_HANS  博客
-      fr      : &FR       Blog
       # @end locale config
     url: https://blog.shaneyao.com/
   - titles:
       # @start locale config
-      en      : &EN       中文
+      en      : &EN       Garden
+      zh-Hans : &ZH_HANS  数字花园
+      # @end locale config
+    url: https://brain.shaneyao.com/
+  - titles:
+      # @start locale config
+      en      : &EN       Chinese
       zh-Hans : &ZH_HANS  中文
-      fr      : &FR       中文
       # @end locale config
     url: https://yaozhixiang.com
   - titles:
       # @start locale config
       en      : &EN       About
       zh-Hans : &ZH_HANS  关于
-      fr      : &FR       À propos
       # @end locale config
     url: /about.html
