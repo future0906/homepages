@@ -10,4 +10,4 @@ feature: true
 analytics:
   provider: google
   google:
-    tracking_id: G-9BYF76TH10
+    tracking_id: G-5B9PNBTCVH
