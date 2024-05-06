@@ -5,6 +5,7 @@ author: shane
 layout: article
 categories:
     - 未分类
+key: 2023-11-10-switch-site-to-jekyll
 ---
 
 之前新用户买的腾讯轻量服务器到期了，续费就算打折也是贵得飞起。在降本增效的大前提下，感觉Wordpress也不是不可替代。而且我文章的量一向不太多，感觉Jekyll应该就够应付了。
