@@ -21,7 +21,7 @@ key: 2023-12-13-dont-waste-time-on-anki-deck-card-making
 这也是一个问题。并且跟上面两点相关：**当你制作的卡片速度远超过你复习的速度，那你有可能永远都复习不完**。这个SM2算法基本已经确定有这方面的缺陷，就是在复习数量有限的情况下，不会优先复习新学习的内容。我对这个看法也挺绝望的，新旧内容混杂在一个Deck上，看不到尽头的学习过程。
 
 #### 卡片让语言脱离语境（FLASHCARDS TAKE LANGUAGE OUT OF CONTEXT）
-这个基本就是ANKI的原理。将需要背诵的内容拆开一分分去学习、记忆。至于一份份的卡片没有上线问、没有关联性、只是机械的按照遗忘曲线重复。这也是我[上篇介绍]({% link _posts/2023-12-02-efficiency-app-anki-joplin-obsidian.md %})中所说的，只适合背诵概念之类的。需要内化的内容，完全不值得花时间在上面制作。
+这个基本就是ANKI的原理。将需要背诵的内容拆开一分分去学习、记忆。至于一份份的卡片没有上线问、没有关联性、只是机械的按照遗忘曲线重复。这也是我[上篇介绍]({% link _articles/2023-12-02-efficiency-app-anki-joplin-obsidian.md %})中所说的，只适合背诵概念之类的。需要内化的内容，完全不值得花时间在上面制作。
 
 
 #### 更加大脑友好的学习方法让SRS类软件不再重要（BRAIN-FRIENDLY LEARNING STRATEGIES MAKE SRS APPS IRRELEVANT）

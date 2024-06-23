@@ -1,4 +1,5 @@
 ---
-title: About me
-layout: article
+layout: page
+title: "About"
 ---
+

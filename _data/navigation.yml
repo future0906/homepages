@@ -10,16 +10,10 @@ header:
       en      : &EN       Blog
       zh-Hans : &ZH_HANS  博客
       # @end locale config
-    url: https://blog.shaneyao.com/
+    url: /blog.html
   - titles:
       # @start locale config
-      en      : &EN       Garden
-      zh-Hans : &ZH_HANS  数字花园
+      en      : &EN       Notes
+      zh-Hans : &ZH_HANS  笔记
       # @end locale config
-    url: https://brain.shaneyao.com/
-  - titles:
-      # @start locale config
-      en      : &EN       About
-      zh-Hans : &ZH_HANS  关于
-      # @end locale config
-    url: /about.html
+    url: https://notes.shaneyao.com/
