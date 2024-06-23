@@ -1,6 +1,5 @@
 title: Shane Yao
 remote_theme: kitian616/jekyll-text-theme
-theme: jekyll-text-theme
 feature: true
 include:
  - _articles
