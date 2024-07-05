@@ -5,7 +5,6 @@ include:
  - _articles
 collections:
   articles:
-    output: true
 comments:
   provider: disqus
   disqus:
